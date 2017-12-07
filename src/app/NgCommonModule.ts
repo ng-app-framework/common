@@ -1,13 +1,13 @@
 import {Component, NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 import {CommonModule} from "@angular/common";
-import {CoreModule} from "@ng-app-framework/core";
-import {LocationModule} from "@ng-app-framework/location";
-import {ProgressModule} from "@ng-app-framework/progress";
-import {SessionModule} from "@ng-app-framework/session";
-import {StorageModule} from "@ng-app-framework/storage";
-import {TimeModule} from "@ng-app-framework/time";
-import {ValidationModule} from "@ng-app-framework/validation";
+import {NgCoreModule} from "@ng-app-framework/core";
+import {NgLocationModule} from "@ng-app-framework/location";
+import {NgProgressModule} from "@ng-app-framework/progress";
+import {NgSessionModule} from "@ng-app-framework/session";
+import {NgStorageModule} from "@ng-app-framework/storage";
+import {NgTimeModule} from "@ng-app-framework/time";
+import {NgValidationModule} from "@ng-app-framework/validation";
 
 @Component({
     selector: 'app',
@@ -27,22 +27,22 @@ export class AppComponent {
     imports     : [
         BrowserModule,
         CommonModule,
-        CoreModule,
-        LocationModule,
-        ProgressModule,
-        SessionModule,
-        StorageModule,
-        TimeModule,
-        ValidationModule
+        NgCoreModule,
+        NgLocationModule,
+        NgProgressModule,
+        NgSessionModule,
+        NgStorageModule,
+        NgTimeModule,
+        NgValidationModule
     ],
     exports     : [
-        CoreModule,
-        LocationModule,
-        ProgressModule,
-        SessionModule,
-        StorageModule,
-        TimeModule,
-        ValidationModule
+        NgCoreModule,
+        NgLocationModule,
+        NgProgressModule,
+        NgSessionModule,
+        NgStorageModule,
+        NgTimeModule,
+        NgValidationModule
     ],
     providers   : [],
     bootstrap   : [AppComponent]
