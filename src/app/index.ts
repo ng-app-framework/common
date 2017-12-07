@@ -1,4 +1,4 @@
-export * from "./InfrastructureModule";
+export * from "./NgCommonModule";
 export * from "@ng-app-framework/core";
 export * from "@ng-app-framework/location";
 export * from "@ng-app-framework/progress";
