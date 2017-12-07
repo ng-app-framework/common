@@ -1,7 +1,7 @@
 {
   "name": "@ng-app-framework/common",
   "description": "Optional package to include services common to Angular libraries built with this framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "keywords": [
     "ng-app",
